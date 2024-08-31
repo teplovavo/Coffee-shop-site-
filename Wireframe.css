@@ -1,0 +1,154 @@
+/* -- Coffee shop and cafes -- */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d2b48c; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+li {
+    float: left;
+    border-right: 1px solid #8b5e3c; 
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: #3e2723; 
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration:none;
+    font-family: 'Georgia', serif; 
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+li a:hover:not(.active) {
+    background-color: #8b5e3c;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.active {
+    background-color: #3e2723; 
+    color: #fff; 
+    border-radius: 4px;
+}
+
+
+
+/* Color Block */
+.color-block {
+    background-color: #c0a38b; 
+    color: #fff; 
+    padding: 50px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 8px;
+    height: 50px;
+}
+
+inner-block {
+    color:3e2723;
+
+}
+
+
+
+
+/* ---------------------------------------- */
+/* Background */
+body {
+    background-color: rgb(134, 104, 81); 
+}
+
+/* Headline */
+#headline {
+    color: rgb(31, 22, 11); 
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Georgia', serif; 
+    margin-bottom: 20px; 
+}
+
+/* Subheadings */
+h1 {
+    color: rgb(54, 31, 31); 
+    text-align: center;
+    font-family: 'Georgia', serif; 
+    font-size: 48px; 
+    margin-bottom: 16px; 
+}
+
+h3 {
+    color: rgb(39, 35, 28); 
+    font-family: 'Georgia', serif; 
+    font-size: 36px; 
+    margin-bottom: 12px; 
+}
+
+h4 {
+    color: rgb(41, 30, 30); 
+    font-family: 'Georgia', serif; 
+    font-size: 28px; 
+    margin-bottom: 8px; 
+}
+
+/* Images */
+img {
+    width: 30%;
+    display: block;
+    margin: auto;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+
+/* cappuccino style button for offer */
+
+.cappuccino-button {
+    background-color: #d2b49c; 
+    color: #2e2626; 
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+.cappuccino-button:hover {
+    background-color: #bfa58f; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cappuccino-button:active {
+    background-color: #a8977d; 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
